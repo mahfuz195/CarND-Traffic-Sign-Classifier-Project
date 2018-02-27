@@ -4,16 +4,18 @@ Overview
 ---
 This project classify the German traffic road signs using deep neural networks and convolution neural networks. LaNet arechtecture was used to train and validate model. The dataset is avaiable at [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the training, the model was tested with new random images of German traffic signs from the Internet.
 
+![Traffic Signs](1.png)
+
 ### Dependencies
 This project requires Python 3.5 and the following Python libraries installed:
 
-Jupyter,
-NumPy,
-SciPy,
-scikit-learn,
-TensorFlow,
-PIL,
-OpenCV.
+*Jupyter
+*NumPy
+*SciPy
+*scikit-learn
+*TensorFlow
+*PIL
+*OpenCV
 
 Preprocessing
 ---
@@ -22,10 +24,10 @@ The german sign classifier images ar 32x32x3 RGB images. I have modified the ima
 Image Augmentation
 ---
 I have used the following image augmentation techniques to create more data for the training, validating and testing:
-1. Chaning Brightness
-2. Random rotation
-3. Random scaling
-4. Blurring
+* Chaning Brightness
+* Random rotation
+* Random scaling
+* Blurring
 
 Model Architecture
 ---
@@ -44,12 +46,14 @@ Model Architecture
 13. Dropout
 14. FC layer (input: 84, output: 43)
 
-![Validation Accuracy](validation_accuracy.png)
 
 Results
 ---
 The validation accuracy is 96.3% and Test accuracy is 93.5%
 With the new images the prediction was 80% accuratef for 5 images downladed from internet.
+
+
+![Validation Accuracy](validation_accuracy.png)
 
 Summary
 ---
