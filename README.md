@@ -44,8 +44,9 @@ Model Architecture
 13. Dropout
 14. FC layer (input: 84, output: 43)
 
-![GitHub Logo](validation_accuracy.png)
-Format: ![Alt Text](url)
+<p align="center">
+  ![Validation Accuracy](validation_accuracy.png)
+</p>
 
 
 A great writeup should include the [rubric points](https://review.udacity.com/#!/rubrics/481/view) as well as your description of how you addressed each point.  You should include a detailed description of the code used in each step (with line-number references and code snippets where necessary), and links to other supporting documents or external references.  You should include images in your writeup to demonstrate how your code works with examples.  
