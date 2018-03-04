@@ -42,8 +42,14 @@ I have used the following image augmentation techniques to create more data for 
 ![image3](brightness1.png)
 ![image4](brightness.png)
 * Random rotation
+![image5](rotation1.png)
+![image6](rotation2.png)
 * Random scaling
+![image5](scale1.png)
+![image6](scale2.png)
 * Blurring
+![image5](blur1.png)
+![image6](blur2.png)
 
 Each image was augmented using above the image processing and the dataset was added with the given dataset. Thus, the number of dataset for Training, Testing and Validating dataset was doubled. 
 * New train data set size: 55678
