@@ -40,7 +40,7 @@ I have used the following image augmentation techniques to create more data for 
 * Chaning Brightness
   The weather and lighting condition is different for same image. so we added different lighting condition by changing the brightness of the  images in the given dataset.
 ![image3](brightness1.png)
-![image4](brightness2.png)
+![image4](brightness.png)
 * Random rotation
 * Random scaling
 * Blurring
