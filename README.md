@@ -5,17 +5,26 @@ Overview
 This project classify the German traffic road signs using deep neural networks and convolution neural networks. LaNet arechtecture was used to train and validate model. The dataset is avaiable at [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the training, the model was tested with new random images of German traffic signs from the Internet.
 
 ![Traffic Signs](1.png)
+[image1]:  number_of_given_example.png "Image Visualization"
 
 ### Dependencies
 This project requires Python 3.5 and the following Python libraries installed:
 
-*Jupyter
-*NumPy
-*SciPy
-*scikit-learn
-*TensorFlow
-*PIL
-*OpenCV
+* Jupyter
+* NumPy
+* SciPy
+* scikit-learn
+* TensorFlow
+* PIL
+* OpenCV
+
+### Dataset summary
+The total given dataset was given as Training, Testing and validating dataset. First I loaded the given files using pickel and from there I found that , within given dataset I have: 
+* Training dataset size: 34799
+* Testing dataset size: 12630
+* Validating dataset size: 4410
+* Number of classes : 43
+![alt text][image1]
 
 Preprocessing
 ---
