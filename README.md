@@ -39,6 +39,7 @@ I have used the following image augmentation techniques to create more data for 
 * Random rotation
 * Random scaling
 * Blurring
+
 Each image was augmented using above the image processing and the dataset was added with the given dataset. Thus, the number of dataset for Training, Testing and Validating dataset was doubled. 
 * New train data set size: 55678
 * New test data set size: 25260
