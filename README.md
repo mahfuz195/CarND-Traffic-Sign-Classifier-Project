@@ -92,3 +92,12 @@ With the new images the prediction was 80% accuratef for 5 images downladed from
 
 ![Validation Accuracy](validation_accuracy.png)
 
+Test on New Images
+---
+I have tested the model with 5 new images. I all cases the model was able to predict the correct output by classifying the correct label. Here are the output of these 5 images:
+
+![image11](new_image1.png)
+![image12](new_image2.png)
+![image13](new_image3.png)
+![image14](new_image4.png)
+![image15](new_image5.png)
