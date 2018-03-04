@@ -94,7 +94,7 @@ With the new images the prediction was 80% accuratef for 5 images downladed from
 
 Test on New Images
 ---
-I have tested the model with 5 new images. I all cases the model was able to predict the correct output by classifying the correct label. Here are the output of these 5 images:
+I have tested the model with 5 new images. I all cases the model was able to predict the correct output by classifying the correct label. In the image 3 and 5 was difficult to classify. For image 3 (Accuracy 97%) the model got confused between speed limit 30 and speed limit 50 as they are very close to each other. And for image 5 (Accuracy 68%), it got confused between round a bot and other speed limit sign. In my opinion, the reasons are: having same round shape, using grayscaling eliminates the blue color effect, and blur effect (as per previsous discussion). Here are the output of these 5 images:
 
 ![image11](new_image1.png)
 ![image12](new_image2.png)
