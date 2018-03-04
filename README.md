@@ -32,10 +32,14 @@ Preprocessing
 ---
 The german sign classifier images ar (32x32x3) RGB images. I have modified the images with Grayscale converting to (32x32x1) and then using the normalization.
 
+![image1](brightness.png)
+
 Image Augmentation
 ---
 I have used the following image augmentation techniques to create more data for the training, validating and testing:
 * Chaning Brightness
+  The weather and lighting condition is different for same image. so we added different lighting condition by changing the brightness of the  images in the given dataset.
+  
 * Random rotation
 * Random scaling
 * Blurring
