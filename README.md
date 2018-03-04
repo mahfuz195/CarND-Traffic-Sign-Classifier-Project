@@ -98,6 +98,6 @@ I have tested the model with 5 new images. I all cases the model was able to pre
 
 ![image11](new_image1.png)
 ![image12](new_image2.png)
-![image13](new_image3.png)
+![image13](new_imag3.png)
 ![image14](new_image4.png)
 ![image15](new_image5.png)
