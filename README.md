@@ -66,6 +66,8 @@ Each image was augmented using above the image processing and the dataset was ad
 
 Model Architecture
 ---
+I have followed the same archteture of LaNet with small modificaiton. When I added dropout layers in the last in between the fully connected layers, it improved the performace of the model. 
+
 1. Conv layer (input: 32x32x1, output: 28x28x6)
 2. relu
 3. Max pooling layer (input: 28x28x6, output: 14x14x6)
