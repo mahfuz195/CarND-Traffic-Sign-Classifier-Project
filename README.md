@@ -30,7 +30,7 @@ The total given dataset was given as Training, Testing and validating dataset. F
 
 Preprocessing
 ---
-The german sign classifier images ar 32x32x3 RGB images. I have modified the images with Grayscale converting to 32x32x1 and then using the normalization.
+The german sign classifier images ar (32x32x3) RGB images. I have modified the images with Grayscale converting to (32x32x1) and then using the normalization.
 
 Image Augmentation
 ---
@@ -39,6 +39,10 @@ I have used the following image augmentation techniques to create more data for 
 * Random rotation
 * Random scaling
 * Blurring
+Each image was augmented using above the image processing and the dataset was added with the given dataset. Thus, the number of dataset for Training, Testing and Validating dataset was doubled. 
+* New train data set size: 55678
+* New test data set size: 25260
+* New valid data set size: 8820
 
 Model Architecture
 ---
