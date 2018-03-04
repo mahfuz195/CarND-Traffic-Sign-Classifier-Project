@@ -42,14 +42,19 @@ I have used the following image augmentation techniques to create more data for 
 ![image3](brightness1.png)
 ![image4](brightness.png)
 * Random rotation
+
 As I added only a small amount of rotation. It will likely to have less effect on the training set.
 ![image5](rotation1.png)
 ![image6](rotation2.png)
 * Random scaling
 
+Scling will give the image more flexibility for different angle and cameras. So it will play an important role in training of our model.
+
 ![image7](scale1.png)
 ![image8](scale2.png)
 * Blurring
+
+After the blurring effect the image histogram shows that the images pixels are almost same levels. This will though minimize the diversity of the images. But I my opinion, it will reduce the accuracy of the model. When after the images are grayscaled, it will be tough to classify between the images. 
 
 ![image9](blur1.png)
 ![image10](blur2.png)
