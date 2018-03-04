@@ -5,7 +5,8 @@ Overview
 This project classify the German traffic road signs using deep neural networks and convolution neural networks. LaNet arechtecture was used to train and validate model. The dataset is avaiable at [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset). After the training, the model was tested with new random images of German traffic signs from the Internet.
 
 ![Traffic Signs](1.png)
-[image1]:  number_of_given_example.png "Image Visualization"
+![image1](number_of_given_example.png)
+
 
 ### Dependencies
 This project requires Python 3.5 and the following Python libraries installed:
