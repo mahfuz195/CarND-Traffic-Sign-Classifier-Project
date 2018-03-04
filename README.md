@@ -39,17 +39,21 @@ Image Augmentation
 I have used the following image augmentation techniques to create more data for the training, validating and testing:
 * Chaning Brightness
   The weather and lighting condition is different for same image. so we added different lighting condition by changing the brightness of the  images in the given dataset.
+  
 ![image3](brightness1.png)
 ![image4](brightness.png)
 * Random rotation
+
 ![image5](rotation1.png)
 ![image6](rotation2.png)
 * Random scaling
-![image5](scale1.png)
-![image6](scale2.png)
+
+![image7](scale1.png)
+![image8](scale2.png)
 * Blurring
-![image5](blur1.png)
-![image6](blur2.png)
+
+![image9](blur1.png)
+![image10](blur2.png)
 
 Each image was augmented using above the image processing and the dataset was added with the given dataset. Thus, the number of dataset for Training, Testing and Validating dataset was doubled. 
 * New train data set size: 55678
