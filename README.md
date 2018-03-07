@@ -96,6 +96,9 @@ Frist I tried with the given LaNet arcitecture. and modified the input and ouput
   5  | 70    | 128        | 0.001         | 0.3          | 95.5               | 94.1|
   6  | 70    | 128        | 0.001         | 0.5          | 96.3               | 94.4|
 
+
+![Validation Accuracy_all](all_result.png)
+
 Results
 ---
 The validation accuracy is 96.3% and Test accuracy is 93.5%
