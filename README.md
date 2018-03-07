@@ -109,3 +109,8 @@ I have tested the model with 5 new images. I all cases the model was able to pre
 ![image13](new_imag3.png)
 ![image14](new_image4.png)
 ![image15](new_image5.png)
+
+Conclusion and Furhter Improvement
+---
+The model worked well having more than ~95% accuracy. Prepossing and model modification I have used to improve the accuracy of the LaNet.I wanted to use AlexNet, But later found out that AlexNet works well for lager image size. using VGG16, Residual Network can be explored for further improvemt of the traffic sign classifer.
+
