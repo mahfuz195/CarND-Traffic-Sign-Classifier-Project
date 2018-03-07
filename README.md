@@ -88,7 +88,7 @@ Hyperparameters Selection
 Frist I tried with the given LaNet arcitecture. and modified the input and ouput size of the model. That gave me validation accuracy of ~91%. Later I added the dropout and It increase the validation accuracy above ~94%. Later From Table 1, I selected hyperparameters for case 1 randomly. Then, I have tested my model with different number of epochs, batch size, learning rate, dropout rate. And measured the validation accuracy and testing accuracy. With the learning rate 0.09 it gives the wrost performance. so I kept the learning rate 0.001 in other cases. I chaged the droput rate 0.5, 0.3 and 0.7 and saw that 0.5 gives better output. In case of epoch, first I tried with 100 epochs and found that my model does not improve after 65. so I chosed the epochs to be 70. Thus, case #1 and case #6 shows the simililar results. 
 
    Case | Epoch | Batch Size | Learning Rate | Dropout Rate | Validation Accuracy | Testing Accuracy |
-  -------------  | -------------| -------------| -------------| -------------| -------------| -------------
+  -------------  | -------------| -------------| -------------| -------------| -------------| -------------|
     1  | 100   | 128        | 0.001         | 0.5          | 96.6               | 94.4|
     2  | 100   | 256        | 0.001         | 0.5          | 95.5               | 93.9|
     3  | 100   | 128        | 0.09          | 0.5          | 5.5                | 5.7 |
